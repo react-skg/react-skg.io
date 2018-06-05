@@ -4,8 +4,13 @@ React SKG Meetup blog
 
 ## Development
 
-`$ npm install`
-`$ npm run dev`
+- `$ npm install`
+- `$ npm run dev`
+
+## Deployment
+
+- `$ npm run build:pp`
+- `$ firebase deploy`
 
 ## Acknowledgements
 
