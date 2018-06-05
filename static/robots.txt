@@ -2,4 +2,4 @@ User-agent: *
 Disallow: */tags/
 Disallow: */categories/
 
-sitemap: https://reack-skg.io/react-skg/sitemap.xml
+sitemap: https://reack-skg.io/sitemap.xml
