@@ -2,6 +2,11 @@
 
 React SKG Meetup blog
 
+## Development
+
+`$ npm install`
+`$ npm run dev`
+
 ## Acknowledgements
 
 Special thanks to:

@@ -1,8 +1,11 @@
-import React from "react";
-import Helmet from "react-helmet";
-import PostListing from "../components/PostListing/PostListing";
-import SEO from "../components/SEO/SEO";
-import config from "../../data/SiteConfig";
+import React from 'react';
+import Helmet from 'react-helmet';
+
+import PostListing from '../components/PostListing/PostListing';
+import ComingSoon from '../components/ComingSoon';
+import SEO from '../components/SEO/SEO';
+
+import config from '../../data/SiteConfig';
 
 class Index extends React.Component {
   render() {
@@ -11,7 +14,8 @@ class Index extends React.Component {
       <div className="index-container">
         <Helmet title={config.siteTitle} />
         <SEO postEdges={postEdges} />
-        <PostListing postEdges={postEdges} />
+        {/* <PostListing postEdges={postEdges} /> */}
+        <ComingSoon />
       </div>
     );
   }
@@ -19,7 +23,7 @@ class Index extends React.Component {
 
 export default Index;
 
-/* eslint no-undef: "off"*/
+/* eslint no-undef: "off" */
 export const pageQuery = graphql`
   query IndexQuery {
     allMarkdownRemark(

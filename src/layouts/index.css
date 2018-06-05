@@ -1,12 +1,16 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html {
-    height: 100%;
-}
-
+html,
 body {
-    margin: 0;
-    padding: 20px;
+  width: 100%;
+  background-image: linear-gradient(
+    to right top,
+    #143464,
+    #1b4f85,
+    #1e6ba7,
+    #1b89c9,
+    #12a9eb
+  );
 }

@@ -1,0 +1,53 @@
+.container {
+  position: relative;
+  height: 960px;
+}
+
+.logo {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  width: 660px;
+  height: 220px;
+  object-fit: cover;
+  -webkit-transform: translate(-50%, -30%);
+  -moz-transform: translate(-50%, -30%);
+  -ms-transform: translate(-50%, -30%);
+  -o-transform: translate(-50%, -30%);
+  transform: translate(-50%, -30%);
+}
+
+.message {
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  font-size: 52px;
+  -webkit-transform: translate(-50%, -70%);
+  -moz-transform: translate(-50%, -70%);
+  -ms-transform: translate(-50%, -70%);
+  -o-transform: translate(-50%, -70%);
+  transform: translate(-50%, -70%);
+}
+
+@media only screen and (max-width: 480px) {
+  .container {
+    max-height: 800px;
+  }
+
+  .message {
+    white-space: nowrap;
+    left: 50%;
+    top: 60%;
+    -webkit-transform: translate(-50%, -60%);
+    -moz-transform: translate(-50%, -60%);
+    -ms-transform: translate(-50%, -60%);
+    -o-transform: translate(-50%, -60%);
+    transform: translate(-50%, -60%);
+  }
+
+  .logo {
+    object-fit: contain;
+    width: 320px;
+  }
+}
